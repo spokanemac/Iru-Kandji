@@ -5,4 +5,16 @@ Let's make the squid dance!
 
 ## Bulk Operations
 
-- `iru-load-tags.py` – This script is designed to load tags from a text file into Iru.
+### Load Tags
+
+- `iru-load-tags.py` 
+Iru Kandji tag bulk creator with duplicate checks, optional prefetch, retries, concurrency,
+rate-limiting, and CSV reporting.
+
+Env:
+  `API_TOKEN=...` set using `export API_TOKEN="token_here"`
+
+Examples:
+  ```
+  python iru-load-tags.py -f tags.txt --prefetch --concurrency 8 --qps 5 --report-path report.csv
+  ```
