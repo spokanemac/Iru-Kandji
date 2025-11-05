@@ -1,7 +1,7 @@
 # Iru-Kandji Scripts
 Scripts for interacting with the Iru Kandji MDM API.
 
-Let's make the squid dance!
+Let's make the jellyfish dance!
 
 ## Bulk Operations
 
